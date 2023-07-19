@@ -82,6 +82,10 @@ h2 {
     padding: 10px;
 
 }
+.nav-icon{
+    color: red;
+    padding: 5px;
+}
 
 /* banner section style  */
 .banner-area {
@@ -162,6 +166,9 @@ h5{
     font-weight: 600;
 
 }
+h5:hover{
+    color:#F948B2;
+}
 .gaming-area{
     display: flex;
     align-items: center;
@@ -180,9 +187,59 @@ h5{
 }
 .gaming-area:hover{
     border: 1px solid #FF42A5;
-    background-color: #f2f1f7;
-    color: #FF42A5;
+    background-color: #ffffff;
 }
+
+/* footer section style  */
+footer{
+    text-align: center;
+    background-color: #0B0223;
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+.footer-icon a{
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.footer-support{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 30px;
+    padding-bottom: 20px;    
+}
+.footer-support li{
+    list-style: none;
+}
+.footer-support li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
 
 
 
@@ -214,8 +271,14 @@ h5{
         grid-template-columns: repeat(1,1fr);
         
     }
-    .all-game{
+    .all-game,
+    .footer-icon
+    {
         grid-template-columns: repeat(3,1fr);
+    }
+    .footer-support{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     
 }
@@ -234,7 +297,8 @@ h5{
         grid-template-columns: repeat(2,1fr);
         
     }
-    .play-instant-section
+    .play-instant-section,
+    .banner-area
     {
      flex-direction: column-reverse;
     }
