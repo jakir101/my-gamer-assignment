@@ -117,6 +117,27 @@ h1{
     margin: 10px 10px;
 }
 
+/* we are gamer section styles */
+
+    .we-are-gamer-sec{
+        display: flex;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .we-are-gamer-img img{
+        width: 100%;
+    }
+    .we-are-gamer-container{
+        text-align: end;
+    }
+    .extra-margin{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
 /* online game section style  */
 h3{
     font-size: 35px;
@@ -165,9 +186,6 @@ h5{
     font-size: 18px;
     font-weight: 600;
 
-}
-h5:hover{
-    color:#F948B2;
 }
 .gaming-area{
     display: flex;
@@ -257,7 +275,8 @@ footer ul{
     .header-section ,
     .nav-container ul ,
     .banner-area,
-    .play-instant-section
+    .play-instant-section,
+    .we-are-gamer-sec
    {
     flex-direction: column;
    }
@@ -298,7 +317,8 @@ footer ul{
         
     }
     .play-instant-section,
-    .banner-area
+    .banner-area,
+    .we-are-gamer-sec
     {
      flex-direction: column-reverse;
     }
