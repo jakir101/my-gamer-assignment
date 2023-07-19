@@ -38,6 +38,9 @@
     font-size: 14px;
     font-weight: 400;
 }
+.h3-color{
+    color: #F948B2;
+}
 
 /* header section styles */
 
@@ -130,6 +133,56 @@ h3{
 .game-collection-images img{
     width: 95%;
 }
+/* play instant section style  */
+.play-instant-section{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.play-instant-content{
+    margin-right: 100px;
+}
+.play-instant-image {
+    margin: 10px;
+}
+.play-img-1{
+    width: 100%;
+}
+.play-img-2{
+    margin-top: -200px;
+    margin-left: -100px;
+    width: 50%;
+}
+/* all game section style  */
+h5{
+    color: #0B0223;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.gaming-area{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    border-radius:40px;
+    background-color: #fff;
+}
+.all-game{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr) ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.gaming-area:hover{
+    border: 1px solid #FF42A5;
+    background-color: #f2f1f7;
+    color: #FF42A5;
+}
 
 
 
@@ -146,7 +199,8 @@ h3{
 
     .header-section ,
     .nav-container ul ,
-    .banner-area
+    .banner-area,
+    .play-instant-section
    {
     flex-direction: column;
    }
@@ -160,6 +214,10 @@ h3{
         grid-template-columns: repeat(1,1fr);
         
     }
+    .all-game{
+        grid-template-columns: repeat(3,1fr);
+    }
+    
 }
 
 /* responsive for tablet or medium device */
@@ -175,5 +233,12 @@ h3{
     .game-collection-images{
         grid-template-columns: repeat(2,1fr);
         
+    }
+    .play-instant-section
+    {
+     flex-direction: column-reverse;
+    }
+    .all-game{
+        grid-template-columns: repeat(3,1fr);
     }
 }
