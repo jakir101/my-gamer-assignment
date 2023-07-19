@@ -1,0 +1,66 @@
+/* shared styles */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.pink-color{
+    color: #FF42A5;
+    font-weight: 700;
+}
+
+/* header section styles */
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 10px 100px;
+    
+}
+.nav-list{
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+h2{
+    font-size: 35px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-nav a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 15px;
+    color: #3C354F;
+}
+.header-logo img{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* responsive area */
+
+/* responsive for mobile device */
+
+
+/* responsive for tablet */
